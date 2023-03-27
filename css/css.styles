@@ -1,0 +1,23 @@
+
+.buttons li{
+height: 308px;
+width: 121px;
+left: 510px;
+top: 174px;
+border-radius: 40px;
+color: rgba(245, 244, 250, 1);
+
+}
+
+.buttons:hover{
+
+    color: red;
+}
+
+
+.buttons:focus{
+
+    color: var(--brand-color);
+}
+
+ 
