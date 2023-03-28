@@ -3,7 +3,7 @@
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: .1.625;
+    line-height: 1.625;
     letter-spacing: 0.03em;
     text-align: center; 
     padding-left: 22px;
@@ -12,6 +12,54 @@
     padding-bottom: 6;
 
 }
+
+
+
+.buttons2{
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    text-align: center; 
+   
+
+}
+
+.lorem_ipsum{
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+
+}
+
+.lorem_ipsum2{
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    
+
+   
+}
+ .head_2{font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    
+    }
+
 
 .buttons:hover{
 background-color: var(--brand-color-blue);
@@ -26,7 +74,18 @@ color: var(--brand-color-white);
 
      
 }
+.effect{
 
+
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    
+
+}
 
 .web{
 
@@ -53,6 +112,25 @@ color: var(--brand-color-white);
     }
 
 
+    .text3{font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.1875;
+        letter-spacing: 0.03em;
+         
+        
+
+    }
+    .text4{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.1875;
+        letter-spacing: 0.03em;
+         
+        
+
+    }
 
 .contact-header{
 
@@ -116,6 +194,14 @@ color:     var(--brand-color-white2);
 background-color:   var(--brand-color-black);
   }
 
+
+  .background{
+
+background-color: var(--brand-color-black);
+
+ 
+
+  }
   .text{
 
     font-family: Roboto;
