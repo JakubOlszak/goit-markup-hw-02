@@ -26,31 +26,73 @@ color: var(--brand-color-white);
 
      
 }
+
+
+.web{
+
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: left;
+     
+}
+
+
+
+
+.studio{   
+    
+    font-family: Oleo Script;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.38;
+    letter-spacing: 0.03em;
+    text-align: left;
+    }
+
+
+
 .contact-header{
 
     font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: .1.71;
-letter-spacing: 0.03em;
-text-align: left;
-color:     var(--brand-color-black);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(33, 33, 33, 1);
+
+    
+
  }
  .contact-footer{
 
     font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: .1.71;
+line-height: 1.71;
 letter-spacing: 0.03em;
 text-align: left;
 color:     var(--brand-color-white);
 
  }
- 
+ .contact-footer2{
+
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-align: left;
+color:     var(--brand-color-white2);
+
+ }
 
  
- 
+ .contact-footer2:hover,
+ .contact-footer2:focus,
  .contact-footer:hover,
  .contact-footer:focus,
  .contact-header:focus,
@@ -65,7 +107,9 @@ color:     var(--brand-color-white);
     --brand-color-blue: rgba(33, 150, 243, 1);
     --brand-color-black: rgba(47, 48, 58, 1);
     --brand-color-white:  rgba(255, 255, 255, 1);
-    
+    --brand-color-white2: rgba(255, 255, 255, 0.6);
+    --brand-color-dark:  rgba(33, 33, 33, 1);
+    --brand-color-grey:  rgba(117, 117, 117, 1);
   }
 
   .footer{
@@ -80,7 +124,7 @@ background-color:   var(--brand-color-black);
     line-height: 2.0;
     letter-spacing: 0.06em;
     text-align: left;
-    color: rgba(33, 33, 33, 1);
+    color: var(--brand-color-dark);
 
 
   }
@@ -90,10 +134,10 @@ background-color:   var(--brand-color-black);
     font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
-line-height: .1.875;
+line-height: 1.875;
 letter-spacing: 0.03em;
 text-align: left;
-color: rgba(117, 117, 117, 1);
+color: var(--brand-color-grey);
 
     
 
