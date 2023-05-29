@@ -1,0 +1,14 @@
+od WebStudio do Agencji jest 93px
+Miedzy Agencja Portfolio a Kontakt po 46
+MIedzy Kontakt a linkiem 371
+
+
+.card {
+border-top: none;
+}
+
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}

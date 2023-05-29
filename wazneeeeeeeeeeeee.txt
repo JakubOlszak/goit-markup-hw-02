@@ -1,0 +1,36 @@
+
+
+ align-items: left;
+    justify-content: flex-start;
+    list-style: none;
+
+
+ justify-content: space-between;
+
+
+
+spróbuj SHIFT + ALT + F -- formatowanie
+
+
+no to teraz tak
+9:55
+ctrl + ,
+9:55
+w szukajce
+New
+9:55
+format on save
+9:55
+pod szukajką masz user / workspace
+9:56
+i na obu zaznacz na wszelki checkboxa
+9:56
+dla format on save
+9:56
+i przy każdym ctrl + s
+9:56
+powinno formatować kod
+
+
+
+

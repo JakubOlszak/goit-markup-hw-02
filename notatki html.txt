@@ -1,0 +1,158 @@
+﻿Zewnętrzny arkusz stylów
+
+<head>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+
+
+
+Taki selektor jest oznaczony znakiem * - tj. dowolny element. Taki selektor ma minimalny priorytet (bez rangi).
+
+*{
+margin:0;
+padding:0;
+}
+
+
+Selektor klasy
+
+W selektorze przed nazwą klasy umieszczana jest kropka ..
+
+
+Podejście polegające na łączeniu tego, co wspólne i wyodrębnianiu tego, co unikalne, pozwala uniknąć powtarzania kodu, co w informatyce nazywa się zasadą DRY (don't repeat yourself) - nie powtarzaj kodu
+
+
+
+git remote add origin git@github.com:JakubOlszak/example.git
+
+
+
+
+Generalnie jak używasz vsc to wystarczy nawet wpisać tylko samo link i wciśnąć tab
+
+
+
+Możesz nacisnąć ctrl + f i tam masz takie coś jak "Replace" (po kliknięciu strzałki w dół po lewej stronie) :wink:
+
+
+
+Albo jak przytrzymasz lewy Alt i zaczniesz klikać po kodzie to bedziesz mógł pisać tekst w kilku miejscach naraz
+
+
+
+
+
+
+
+
+najlepiej na górze css dać * { margin: 0 }, aby wszystkim elementom wyzerować margines
+
+
+
+
+
+
+
+
+
+Elementy liniowe służą do wyróżniania i stylizowania treści tekstowej. Na przykład link, przycisk, obraz itp.
+Blokowe służą do oznaczania kontenerów (nagłówek, lista, akapit) i dużych sekcji semantycznych (sekcja, nagłówek, stopka).
+
+
+Zdecydowana większość elementów to elementy blokowe. Na przykład <h1>, <p>, <section>, <ul>, <li>, <div>, <header> i wiele innych.
+
+
+
+dokumencie HTML można wpisać kod lorem10, następnie nacisnąć klawisz Tab
+
+
+
+.social-links .link:active {
+  color: red;
+}
+
+
+
+
+.pointer {
+  cursor: pointer;
+}
+
+
+
+
+Selektor potomka
+
+<a href="">Czytaj nasz blog!</a>
+
+<ul class="social-links">
+  <li>
+    <a href="">Twitter</a>
+  </li>
+  <li>
+    <a href="">Instagram</a>
+  </li>
+  <li>
+    <a href="">Facebook</a>
+  </li>
+</ul>
+
+Będzie zastosowane tylko do linków, które znajdują się wewnątrz znacznika z klasą social-links */
+.social-links a {
+  color: blue;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+<ul class="menu">
+  <li>
+    Komputery i akcesoria
+    <ul class="submenu">
+      <li>Procesory</li>
+      <li>Monitory</li>
+      <li>Karty graficzne</li>
+    </ul>
+  </li>
+
+
+
+
+Selektor dziecka pomaga rozwiązać ten problem, wybierając tylko te <li>, które są dziećmi (pierwszym zagnieżdżeniem) listy ul.menu.
+
+
+
+.menu > li {
+  border: 1px solid tomato;
+}
+
+
+
+
+Na przykład link nie dziedziczy koloru tekstu.
+
+
+
+
+
+
+ https://jakubolszak.github.io/goit-markup-hw-03/
+
+
+
+
+
+
+
+
+
+
+
+
+
